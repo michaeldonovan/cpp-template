@@ -32,8 +32,8 @@
             enableParallelBuilding = true;
 
             meta = with lib; {
-              description = "<description>"
-                license = licenses.gpl3;
+              description = "<description>";
+              license = licenses.gpl3;
               platforms = platforms.all;
               maintainers = with maintainers; [ michaeldonovan ];
             };
